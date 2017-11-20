@@ -79,7 +79,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\f002r5k\personal\imu-data-display\imu-data-display\ChartCtrl;C:\Users\f002r5k\personal\imu-data-display\imu-data-display;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)$(SolutionName)\ChartCtrl;$(SolutionDir)$(SolutionName);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
